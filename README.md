@@ -39,11 +39,10 @@ Consolidar a base institucional de periodicos/QUALIS com metadados do SCImago pa
 
 ## Decisoes de publicacao e seguranca
 
-- Dados brutos em `data/raw/` nao sao versionados.
-- O banco SQLite gerado localmente nao e publicado.
-- Exports derivados de `artifacts/dashboard_assets/` nao sao publicados para evitar expor massa derivada desnecessaria em um repositorio publico.
-- O repositório publica codigo, documentacao e o resumo agregado `artifacts/analysis_summary.json`, que nao contem credenciais nem dados operacionais sensiveis.
+- O repositorio publica codigo, documentacao, bases de entrada, banco SQLite gerado e exports derivados, porque esses artefatos fazem parte da entrega tecnica.
+- Os arquivos versionados foram revisados para evitar credenciais, tokens, chaves privadas ou configuracoes locais sensiveis.
 - Arquivos de ambiente local e possiveis segredos em `.env` e `.streamlit/` ficam fora do versionamento.
+- Pastas de execucao local como `.venv/` e `__pycache__/` continuam ignoradas para manter o repositorio limpo.
 
 ## Como executar
 
