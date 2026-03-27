@@ -1,0 +1,181 @@
+{
+  "rows_total": 22039,
+  "rows_matched_scimago": 1561,
+  "rows_unique_journals_matched": 1473,
+  "match_rate_pct": 7.08,
+  "correlations": {
+    "qualis_rank_vs_avg_citations_spearman": -0.68,
+    "qualis_rank_vs_avg_citations_pvalue": 0.0,
+    "scimago_sjr_vs_avg_citations_spearman": 0.9,
+    "scimago_sjr_vs_avg_citations_pvalue": 0.0
+  },
+  "country_benchmark": [
+    {
+      "country_group": "Brazil",
+      "journals": 112,
+      "avg_sjr": 0.18,
+      "median_h_index": 5.0,
+      "pct_q1": 2.68,
+      "avg_citations": 0.19
+    },
+    {
+      "country_group": "International",
+      "journals": 1361,
+      "avg_sjr": 0.71,
+      "median_h_index": 31.0,
+      "pct_q1": 46.14,
+      "avg_citations": 2.15
+    }
+  ],
+  "quartile_distribution": [
+    {
+      "country_group": "Brazil",
+      "best_quartile": "Q1",
+      "journals": 3
+    },
+    {
+      "country_group": "Brazil",
+      "best_quartile": "Q2",
+      "journals": 22
+    },
+    {
+      "country_group": "Brazil",
+      "best_quartile": "Q3",
+      "journals": 37
+    },
+    {
+      "country_group": "Brazil",
+      "best_quartile": "Q4",
+      "journals": 50
+    },
+    {
+      "country_group": "International",
+      "best_quartile": "-",
+      "journals": 5
+    },
+    {
+      "country_group": "International",
+      "best_quartile": "Q1",
+      "journals": 628
+    },
+    {
+      "country_group": "International",
+      "best_quartile": "Q2",
+      "journals": 323
+    },
+    {
+      "country_group": "International",
+      "best_quartile": "Q3",
+      "journals": 248
+    },
+    {
+      "country_group": "International",
+      "best_quartile": "Q4",
+      "journals": 157
+    }
+  ],
+  "top_sjr": [
+    {
+      "journal_name": "Morbidity and Mortality Weekly Report",
+      "country": "United States",
+      "best_quartile": "Q1",
+      "scimago_sjr": 16.79,
+      "scimago_h_index": 247.0,
+      "avg_citations": 19.0,
+      "qualis": "A1"
+    },
+    {
+      "journal_name": "Administrative Science Quarterly",
+      "country": "United States",
+      "best_quartile": "Q1",
+      "scimago_sjr": 16.56,
+      "scimago_h_index": 201.0,
+      "avg_citations": 13.0,
+      "qualis": "A1"
+    },
+    {
+      "journal_name": "Review of Economics and Statistics",
+      "country": "United States",
+      "best_quartile": "Q1",
+      "scimago_sjr": 8.37,
+      "scimago_h_index": 189.0,
+      "avg_citations": 7.0,
+      "qualis": "A1"
+    },
+    {
+      "journal_name": "Nature Climate Change",
+      "country": "United Kingdom",
+      "best_quartile": "Q1",
+      "scimago_sjr": 6.85,
+      "scimago_h_index": 239.0,
+      "avg_citations": 14.0,
+      "qualis": "A1"
+    },
+    {
+      "journal_name": "Nature Sustainability",
+      "country": "United Kingdom",
+      "best_quartile": "Q1",
+      "scimago_sjr": 6.57,
+      "scimago_h_index": 89.0,
+      "avg_citations": 16.0,
+      "qualis": "B4"
+    }
+  ],
+  "qualis_distribution": [
+    {
+      "qualis": "A1",
+      "qualis_rank": 1,
+      "articles": 2825
+    },
+    {
+      "qualis": "A2",
+      "qualis_rank": 2,
+      "articles": 2643
+    },
+    {
+      "qualis": "A3",
+      "qualis_rank": 3,
+      "articles": 2225
+    },
+    {
+      "qualis": "A4",
+      "qualis_rank": 4,
+      "articles": 2107
+    },
+    {
+      "qualis": "B1",
+      "qualis_rank": 5,
+      "articles": 1976
+    },
+    {
+      "qualis": "B2",
+      "qualis_rank": 6,
+      "articles": 1656
+    },
+    {
+      "qualis": "B3",
+      "qualis_rank": 7,
+      "articles": 1594
+    },
+    {
+      "qualis": "B4",
+      "qualis_rank": 8,
+      "articles": 1829
+    },
+    {
+      "qualis": "C",
+      "qualis_rank": 9,
+      "articles": 4631
+    },
+    {
+      "qualis": "NP",
+      "qualis_rank": 10,
+      "articles": 553
+    }
+  ],
+  "insights": [
+    "A base do programa tem 22.039 registros classificados; 1.561 (7.08%) encontraram correspondencia direta no SCImago por ISSN.",
+    "A correlacao de Spearman entre QUALIS e media de citacoes na base completa foi -0.68, sugerindo relacao moderada entre estrato e citacao media.",
+    "A correlacao entre SJR e media de citacoes foi 0.9, indicando que periodicos mais influentes no SCImago tendem a concentrar mais citacoes no conjunto casado."
+  ]
+}
