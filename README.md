@@ -45,15 +45,15 @@ Consolidar a base institucional de periodicos/QUALIS com metadados do SCImago pa
 
 ## Como executar
 
-1. Coloque os CSVs em `data/raw/` com os nomes abaixo, ou informe os caminhos via linha de comando:
+1. Clone o repositorio. Os arquivos de entrada ja estao versionados em `data/raw/`:
 
 - `data/raw/artigos_fi1.csv`
 - `data/raw/artigos_fi2.csv`
 
-2. Crie o ambiente virtual:
+2. Crie o ambiente virtual com Python 3.12:
 
 ```powershell
-C:\Users\yurig\AppData\Local\Programs\Python\Python312\python.exe -m venv .venv
+python -m venv .venv
 ```
 
 3. Instale as dependencias:
@@ -62,13 +62,13 @@ C:\Users\yurig\AppData\Local\Programs\Python\Python312\python.exe -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-4. Rode o ETL:
+4. Rode o ETL para recriar o banco SQLite a partir dos CSVs versionados:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\etl.py
 ```
 
-Opcionalmente, com caminhos explicitos:
+Opcionalmente, se quiser usar outros arquivos de entrada, informe os caminhos explicitamente:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\etl.py --fi1 "C:\caminho\artigos_fi1.csv" --fi2 "C:\caminho\artigos_fi2.csv"
@@ -80,17 +80,19 @@ Opcionalmente, com caminhos explicitos:
 .\.venv\Scripts\python.exe scripts\analyze.py
 ```
 
-6. Exporte ativos visuais derivados:
+6. Exporte os ativos visuais derivados:
 
 ```powershell
 .\.venv\Scripts\python.exe scripts\export_assets.py
 ```
 
-7. Inicie o dashboard:
+7. Inicie o dashboard em Streamlit:
 
 ```powershell
 .\.venv\Scripts\streamlit.exe run app.py
 ```
+
+8. O Streamlit abrira uma URL local no navegador, normalmente `http://localhost:8501`.
 
 ## Perguntas de negocio cobertas
 
