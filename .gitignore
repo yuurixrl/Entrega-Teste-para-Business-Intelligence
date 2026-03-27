@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+.env
+.env.*
+.streamlit/
+
+data/raw/
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+artifacts/dashboard_assets/

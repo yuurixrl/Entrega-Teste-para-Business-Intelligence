@@ -1,0 +1,5 @@
+pandas==2.3.3
+plotly==6.6.0
+streamlit==1.55.0
+scipy==1.17.1
+kaleido==1.1.0
