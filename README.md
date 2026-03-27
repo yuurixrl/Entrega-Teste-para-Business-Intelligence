@@ -1,6 +1,6 @@
 # Analise de Producao Cientifica em Ciencias Sociais
 
-Entrega tecnica para o teste de Business Intelligence com foco em ETL, modelagem SQLite, dashboard interativo em Streamlit, artefatos visuais para submissao e resumo executivo.
+Entrega tecnica para o teste de Business Intelligence com foco em ETL, modelagem SQLite, dashboard interativo em Streamlit e artefatos visuais para submissao.
 
 ## Objetivo
 
@@ -21,7 +21,6 @@ Consolidar a base institucional de periodicos/QUALIS com metadados do SCImago pa
 - `scripts/analyze.py`: calcula KPIs, correlacoes e insights em `artifacts/analysis_summary.json`.
 - `scripts/export_assets.py`: gera exports derivados do dashboard em HTML/PNG/CSV para uso externo.
 - `app.py`: dashboard Streamlit com filtros, KPIs, graficos e tabelas.
-- `resumo_executivo.md`: sintese executiva dos achados.
 - `artifacts/analysis_summary.json`: resumo agregado pronto para consulta rapida.
 
 ## Decisoes tecnicas
